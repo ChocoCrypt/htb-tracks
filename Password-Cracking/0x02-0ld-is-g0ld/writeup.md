@@ -3,4 +3,7 @@
 
 # Solution:
 First, i tried to use hashcat to crack the pdf, using file command we can check that this is a pdf version 1.6
-
+![pdfformat](img/pdfformat.png)
+however, after tryng to use hashcat for a while i found a tool that is called pdfcrack, so...
+[ppdfcrack](img/ppdfcrack.png)d
+this gives us that the result is 
