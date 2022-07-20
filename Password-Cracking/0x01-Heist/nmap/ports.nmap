@@ -1,0 +1,15 @@
+# Nmap 7.92 scan initiated Wed Jul 20 18:20:23 2022 as: nmap -p- -vvv -T5 -oN ports 10.10.10.149
+Increasing send delay for 10.10.10.149 from 0 to 5 due to 56 out of 139 dropped probes since last increase.
+Nmap scan report for 10.10.10.149
+Host is up, received syn-ack (0.082s latency).
+Scanned at 2022-07-20 18:20:24 -05 for 193s
+Not shown: 65530 filtered tcp ports (no-response)
+PORT      STATE SERVICE      REASON
+80/tcp    open  http         syn-ack
+135/tcp   open  msrpc        syn-ack
+445/tcp   open  microsoft-ds syn-ack
+5985/tcp  open  wsman        syn-ack
+49669/tcp open  unknown      syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Wed Jul 20 18:23:37 2022 -- 1 IP address (1 host up) scanned in 193.48 seconds
