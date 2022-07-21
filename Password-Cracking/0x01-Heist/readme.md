@@ -21,4 +21,4 @@ Using hashcat, we can crack the md5 hash  hash easily. For the otherones we can 
 1. For first hash the password is stealth1agent
 2. For second hash the password is $uperP@ssword
 3. For third hash the password is Q4)sJu\Y8qz
-then we already know that there is a username named Hazard, however, i will use Cewl to collect a list of all the users in the conversation. Then i will use Medusa to crack those hashes. There are other tools like crackmapexec to bruteforce smb service
+then we already know that there is a username named Hazard, however, i will use Cewl to collect a list of all the users in the conversation. Then i will use Medusa to crack those hashes. There are other tools like crackmapexec to bruteforce smb service. so we can check that the user is hazard and the password is stealth1agent
